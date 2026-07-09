@@ -29,7 +29,7 @@ const Navbar = () => {
     { to: "#events", text: "Events" },
     { to: "#contributors", text: "Contributors" },
     { to: "#faq", text: "FAQ" },
-    { to: "/docs", text: "Docs" },
+    { to: "docs/", text: "Docs" },
   ];
 
   const ctaLinks = [
