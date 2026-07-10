@@ -143,7 +143,7 @@ const config = {
               },
               {
                 label: "Code of Conduct",
-                href: "https://github.com/GNOME/Nepal/website/blob/main/CODE_OF_CONDUCT.md",
+                href: "https://github.com/GNOME-Nepal/website/blob/main/CODE_OF_CONDUCT.md",
               },
             ],
           },
