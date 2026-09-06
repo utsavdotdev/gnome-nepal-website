@@ -117,25 +117,56 @@ const Faq = () => {
     {
       question: "What is GNOME Nepal?",
       answer:
-        "GNOME Nepal is an open-source organization focused on promoting collaboration and open-source culture in Nepal.",
+        "GNOME Nepal is an open-source community dedicated to promoting Linux and free software across Nepal. Affiliated with the global GNOME Foundation, we bring together students, developers, and creators to build open technology, host local workshops, and help newcomers start their open-source journey.",
     },
     {
       question: "How can I join this community?",
-      answer: "You can join us by connecting through our Discord!",
+      answer: (
+        <>
+          Joining GNOME Nepal is completely free and open to everyone regardless
+          of your experience level. You can get started immediately by hopping
+          into our official{" "}
+          <a
+            href="https://discord.gg/your-discord-invite"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800 font-medium"
+          >
+            Discord server
+          </a>{" "}
+          or participating in our GitHub project discussions. Whether you want
+          to learn Linux, contribute code, organize local events, or simply
+          connect with fellow developers across Nepal, our community is here to
+          welcome and mentor you.
+        </>
+      ),
     },
     {
       question: "What is open source?",
       answer:
-        "Open-source software is software made available under a license that allows users to freely use, study, modify, and share its source code.",
+        "Open-source software is software with source code that is made publicly accessible for anyone to inspect, modify, enhance, and distribute freely. Unlike proprietary software, it relies on community collaboration, transparency, and peer review. Open source powers much of the modern web—from operating systems like Linux and desktop environments like GNOME to popular frameworks like React—allowing developers worldwide to learn from real-world code and solve problems collectively.",
     },
     {
       question: "Can I contribute to the organization?",
-      answer: "Absolutely, we welcome your contributions!",
+      answer:
+        "Absolutely! GNOME Nepal is a community-driven initiative, and we welcome support from everyone regardless of your background or experience level. You can get involved by: Contributing your expertise to our projects or leading a workshop, Volunteering to help organize events and community activities, or Donating to support our efforts financially and help us expand open-source outreach across Nepal.",
     },
     {
       question: "Are there any exciting events?",
-      answer:
-        "Check out the Events section to stay updated on our upcoming events.",
+      answer: (
+        <>
+          Yes! We regularly host online webinars, Linux installation drives,
+          open-source hackathons, and local community meetups across Nepal.
+          These events are designed to help you learn real-world skills, network
+          with fellow tech enthusiasts, and collaborate on open-source software.
+          You can check out the{" "}
+          <a href="#events" className="text-blue-600 hover:underline">
+            Events
+          </a>{" "}
+          on our website or visit on our Discord server to stay updated and join
+          upcoming sessions!
+        </>
+      ),
     },
   ];
   const faqs = data?.length > 0 ? data : items;
